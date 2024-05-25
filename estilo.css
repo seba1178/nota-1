@@ -1,0 +1,37 @@
+body{
+background-color: blue;
+
+
+}
+
+nav {
+    background-color: #800000;
+    overflow: hidden;
+}
+
+nav a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px 40px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: #ddd;
+    color: rgb(39, 12, 12);
+}
+
+/* Estilos para el contenido */
+.content {
+    padding: 10px;
+}
+
+/* Estilos para la imagen */
+.player-img {
+    width: 500px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
